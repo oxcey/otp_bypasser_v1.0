@@ -6,17 +6,16 @@ Installation  steps👇👇👇👇
 
 $pkg install git
 
-$pkg install python -y
+$pkg install python 
 
 
-$pip3 install pyfiglet -y
+$pip3 install pyfiglet 
 
 $git clone https://github.com/oxcey/otp_bypasser_v1.0.git
 
 $cd otp_bypasser_v1.0
 
 
-$python3 Otp_bypasser
 
-
+$python3 Otp_bypasser.py
 
