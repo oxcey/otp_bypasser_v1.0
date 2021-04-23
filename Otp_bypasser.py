@@ -161,7 +161,7 @@ if len(str(x)) ==12:
 	print("\033[1;36;40m\n")
 	print(G)
 	print("Fetching Otp")
-	otp = randint(000000,999999)
+	otp = randint(111111,999999)
 	sotp = str(otp)
 
 	print('          OTP : '+ sotp)
@@ -182,5 +182,6 @@ else:
 	v = pyfiglet.figlet_format("quiting")
 	print("\033[1;36;40m\n")
 	print(v)
-	exit()        
+	exit()
+        
 
